@@ -47,6 +47,14 @@ module.exports = {
         options: vueLoaderConfig
       },
       {
+        test: /\.jsx$/,
+        exclude: [/node_modules/],
+        use: [{
+          loader: 'babel-loader',
+          options: { plugins: ['transform-vue-jsx'] }
+        }]
+      },
+      {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
