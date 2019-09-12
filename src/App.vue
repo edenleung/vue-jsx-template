@@ -1,13 +1,15 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
-</template>
-
 <script>
+import logo from './assets/logo.png'
 export default {
-  name: 'App'
+  name: 'App',
+  render () {
+    return (
+      <div id="app">
+        <img src={logo} />
+        <router-view />
+      </div>
+    )
+  }
 }
 </script>
 
