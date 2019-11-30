@@ -2,7 +2,7 @@
   "name": "demo",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "xiaodit <saybabi@163.com>",
+  "author": "xiaodit <liangjinbiao@live.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2",
+    "vue": "^2.6.10",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
